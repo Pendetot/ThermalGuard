@@ -2,7 +2,7 @@
   "version": "v2.0",
   "versionCode": 2,
   "zipUrl": "https://github.com/Pendetot/thermalguardian/releases/download/v2.0/ThermalGuardianPro_v2.0.zip",
-  "changelog": "https://raw.githubusercontent.com/lazydev/thermalguardian/main/CHANGELOG.md",
+  "changelog": "https://raw.githubusercontent.com/Pendetot/thermalguardian/main/CHANGELOG.md",
   "releaseNotes": [
     "🔥 Improved v2.0 with full HyperOS support",
     "🧊 Advanced cooling algorithm for better cooling without performance loss",
