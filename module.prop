@@ -1,9 +1,7 @@
 id=thermalguardianpro
-name=🔥❄️ Thermal Guardian Pro v2.0
-version=v2.0
-versionCode=2
+name=🔥❄️ Thermal Guardian Pro v2.1
+version=v2.1
+versionCode=3
 author=LazyDev (Enhanced)
-description=Advanced thermal optimization system with HyperOS support - Maintains cool temperatures without performance loss
-support=https://t.me/thermalguardian
-minMagisk=20400
+description=Advanced thermal optimization with OpenGL 8.0.5 & 144FPS support - Maintains cool temperatures without performance loss
 updateJson=https://raw.githubusercontent.com/Pendetot/ThermalGuardian/main/update.json
