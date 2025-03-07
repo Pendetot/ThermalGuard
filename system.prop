@@ -1,0 +1,43 @@
+# Enhanced thermal tweaks
+persist.vendor.thermal.cpu_temp_limit=55
+persist.vendor.thermal.gpu_temp_limit=55
+ro.thermal.manager.enable=true
+ro.hw.thermal.control=true
+
+# Optimized CPU/GPU limiter (increased from original)
+persist.sys.thermal.throttling=balanced
+persist.sys.cpu.max_freq=85%
+persist.sys.gpu.max_freq=80%
+
+# Advanced thermal tweaks
+ro.hardware.thermal.control=dynamic
+persist.vendor.thermal.cpu_temp_threshold=75
+persist.vendor.thermal.gpu_temp_threshold=70
+
+# HyperOS compatibility
+persist.sys.hyperos.thermal.mode=balanced
+persist.vendor.disable.thermal.control=1
+persist.vendor.thermal.config.performance=1
+
+# Performance improvements
+debug.sf.disable_backpressure=1
+debug.sf.latch_unsignaled=1
+debug.sf.early.app.duration=16500000
+debug.sf.early.sf.duration=16000000
+debug.sf.earlyGl.app.duration=16500000
+debug.sf.earlyGl.sf.duration=16000000
+debug.sf.hwc.min.duration=17000000
+debug.sf.treat_170m_as_sRGB=1
+
+# Enhanced memory management
+ro.config.low_ram=false
+ro.config.ksm.support=true
+ro.sys.fw.bg_apps_limit=48
+ro.vendor.qti.sys.fw.bg_apps_limit=48
+
+# Better battery efficiency
+pm.sleep_mode=1
+power.saving.mode=1
+ro.vendor.use_data_netmgrd=true
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
