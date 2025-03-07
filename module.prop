@@ -6,4 +6,4 @@ author=LazyDev (Enhanced)
 description=Advanced thermal optimization system with HyperOS support - Maintains cool temperatures without performance loss
 support=https://t.me/thermalguardian
 minMagisk=20400
-updateJson=https://raw.githubusercontent.com/lazydev/thermalguardian/main/update.json
+updateJson=https://raw.githubusercontent.com/Pendetot/ThermalGuardian/main/update.json
