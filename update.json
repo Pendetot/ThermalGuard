@@ -1,7 +1,7 @@
 {
   "version": "v2.0",
   "versionCode": 2,
-  "zipUrl": "https://github.com/lazydev/thermalguardian/releases/download/v2.0/ThermalGuardianPro_v2.0.zip",
+  "zipUrl": "https://github.com/Pendetot/thermalguardian/releases/download/v2.0/ThermalGuardianPro_v2.0.zip",
   "changelog": "https://raw.githubusercontent.com/lazydev/thermalguardian/main/CHANGELOG.md",
   "releaseNotes": [
     "🔥 Improved v2.0 with full HyperOS support",
