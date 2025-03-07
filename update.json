@@ -1,7 +1,7 @@
 {
   "version": "v2.0",
   "versionCode": 2,
-  "zipUrl": "https://github.com/Pendetot/ThermalGuardian/releases/download/v2.0/ThermalGuardianPro_v2.0.zip",
+  "zipUrl": "https://github.com/Pendetot/ThermalGuardian/releases/download/v2.1/ThermalGuardianPro_v2.1.zip",
   "changelog": "https://raw.githubusercontent.com/Pendetot/ThermalGuardian/main/CHANGELOG.md",
   "releaseNotes": [
     "🔥 Improved v2.0 with full HyperOS support",
