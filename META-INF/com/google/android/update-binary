@@ -1,0 +1,39 @@
+#!/sbin/sh
+OUTFD=$2
+ZIPFILE=$3
+
+. /tmp/recovery.fstab
+
+ui_print() {
+  echo -n -e "ui_print $1
+" > /proc/self/fd/$OUTFD
+  echo -n -e "ui_print
+" > /proc/self/fd/$OUTFD
+}
+
+package_extract_file() {
+  unzip -o "$ZIPFILE" "$1" -d "$2"
+}
+
+set_perm() {
+  chmod $2 "$1"
+}
+
+set_perm_recursive() {
+  find "$1" -type d -exec chmod $2 {} \;
+  find "$1" -type f -exec chmod $3 {} \;
+}
+
+show_progress() {
+  return 0
+}
+
+ui_print "- Extracting module files"
+mkdir -p /tmp/magisk
+cd /tmp/magisk
+unzip -o "$ZIPFILE" module.prop customize.sh post-fs-data.sh service.sh system.prop thermal-engine.conf gaming.sh uninstall.sh -d /tmp/magisk
+if [ -f "customize.sh" ]; then
+  ui_print "- Running customize.sh"
+  . ./customize.sh
+fi
+exit 0
